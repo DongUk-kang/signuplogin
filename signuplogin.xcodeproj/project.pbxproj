@@ -13,6 +13,9 @@
 		EF74B232270F014100C20099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF74B230270F014100C20099 /* Main.storyboard */; };
 		EF74B234270F014200C20099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF74B233270F014200C20099 /* Assets.xcassets */; };
 		EF74B237270F014200C20099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF74B235270F014200C20099 /* LaunchScreen.storyboard */; };
+		EF74B23F270F027100C20099 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74B23E270F027100C20099 /* LoginViewController.swift */; };
+		EF74B241270F08A000C20099 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74B240270F08A000C20099 /* SignUpViewController.swift */; };
+		EF74B243270F0C1400C20099 /* FindPassWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF74B242270F0C1400C20099 /* FindPassWordViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		EF74B233270F014200C20099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF74B236270F014200C20099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF74B238270F014200C20099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF74B23E270F027100C20099 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF74B240270F08A000C20099 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EF74B242270F0C1400C20099 /* FindPassWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPassWordViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				EF74B22A270F014100C20099 /* AppDelegate.swift */,
 				EF74B22C270F014100C20099 /* SceneDelegate.swift */,
 				EF74B22E270F014100C20099 /* ViewController.swift */,
+				EF74B240270F08A000C20099 /* SignUpViewController.swift */,
+				EF74B23E270F027100C20099 /* LoginViewController.swift */,
+				EF74B242270F0C1400C20099 /* FindPassWordViewController.swift */,
 				EF74B230270F014100C20099 /* Main.storyboard */,
 				EF74B233270F014200C20099 /* Assets.xcassets */,
 				EF74B235270F014200C20099 /* LaunchScreen.storyboard */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF74B23F270F027100C20099 /* LoginViewController.swift in Sources */,
 				EF74B22F270F014100C20099 /* ViewController.swift in Sources */,
+				EF74B243270F0C1400C20099 /* FindPassWordViewController.swift in Sources */,
 				EF74B22B270F014100C20099 /* AppDelegate.swift in Sources */,
 				EF74B22D270F014100C20099 /* SceneDelegate.swift in Sources */,
+				EF74B241270F08A000C20099 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
